@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+*{
+    font-family: 'Yeon Sung', cursive;
+}
+
+.border-right{
+    border-right: .5px solid rgb(218, 211, 211) !important;
+}
+
+.border-bottom{
+    border-bottom: .5px solid rgb(218, 211, 211) !important;
+}
+@media (max-width:768px){
+    .navbar-nav{
+        align-items: flex-end;
+        /* background-color: red; */
+    }
+
+    .footer{
+        position: relative;
+        bottom: 0;
+    }
+}
