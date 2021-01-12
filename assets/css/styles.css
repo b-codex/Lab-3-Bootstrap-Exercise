@@ -4,13 +4,15 @@
     font-family: 'Yeon Sung', cursive;
 }
 
-.border-right{
-    border-right: .5px solid rgb(218, 211, 211) !important;
+/* .footer{
+    position: sticky;
+    bottom: 0;
+} */
+
+.hidden{
+    display: none;
 }
 
-.border-bottom{
-    border-bottom: .5px solid rgb(218, 211, 211) !important;
-}
 @media (max-width:768px){
     .navbar-nav{
         align-items: flex-end;
@@ -22,3 +24,10 @@
         bottom: 0;
     }
 }
+
+
+
+
+
+
+

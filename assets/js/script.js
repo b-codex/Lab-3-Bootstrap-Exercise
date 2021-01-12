@@ -7,13 +7,12 @@ var exp = document.getElementById('exp')
 var pass = document.getElementById('pass')
 
 
+var ps = document.getElementsById('ps')
+console.log(ps)
 
 document.getElementById('checkout').addEventListener('click', () => {
-    if (fname || lname || email || ccn || cvv || exp || pass !== "") {
-        alert("Please Fill Out All Fields!!!")
-    } else {
-        alert("Purchase Successful!!!")
-    }
+    alert('X')
+    ps.style.display='block'
 })
 
 // function checkout(){
