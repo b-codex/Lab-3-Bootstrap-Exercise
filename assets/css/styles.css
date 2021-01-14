@@ -4,13 +4,9 @@
     font-family: 'Yeon Sung', cursive;
 }
 
-/* .footer{
-    position: sticky;
+.footer{
+    position: fixed !important;
     bottom: 0;
-} */
-
-.hidden{
-    display: none;
 }
 
 @media (max-width:768px){
@@ -20,8 +16,7 @@
     }
 
     .footer{
-        position: relative;
-        bottom: 0;
+        position: sticky !important;
     }
 }
 
