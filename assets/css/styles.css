@@ -9,11 +9,16 @@
     bottom: 0;
 }
 
+#image{
+    width: 70%;
+    padding: 1rem;
+
+}
+
 @media (max-width:768px){
-    .navbar-nav{
+    /* .navbar-nav{
         align-items: flex-end;
-        /* background-color: red; */
-    }
+    } */
 
     .footer{
         position: sticky !important;
