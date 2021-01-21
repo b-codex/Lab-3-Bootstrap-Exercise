@@ -1,33 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 
-*{
+* {
     font-family: 'Yeon Sung', cursive;
 }
 
-.footer{
+.footer {
     position: fixed !important;
     bottom: 0;
 }
 
-#image{
+#image {
     width: 70%;
     padding: 1rem;
-
 }
 
-@media (max-width:768px){
-    /* .navbar-nav{
-        align-items: flex-end;
-    } */
+.x {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-    .footer{
+@media (max-width:768px) {
+    .x{
+        flex-direction: column;
+    }
+
+    .footer {
         position: sticky !important;
     }
+    iframe{
+        display: none;
+    }
 }
-
-
-
-
-
-
-
